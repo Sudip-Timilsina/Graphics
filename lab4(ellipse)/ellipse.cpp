@@ -21,7 +21,7 @@ void midpointEllipse(int xc, int yc, int rx, int ry, int midX, int midY) {
    
     while (dx < dy) {
         plotEllipsePoints(xc, yc, x, y, midX, midY);
-        delay(50);
+        delay(10);
         x++;
         dx += 2 * ry2;
         if (p1 < 0) {
